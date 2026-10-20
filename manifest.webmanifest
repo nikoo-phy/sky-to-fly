@@ -1,0 +1,21 @@
+{
+  "name": "A Sky to Fly · bird strike",
+  "short_name": "A Sky to Fly",
+  "description": "ENGL7606 bird strike · mobile interactive page: wipe the glass, place the bird-safe dots, read the map.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0b0e11",
+  "theme_color": "#0b0e11",
+  "categories": ["education", "art"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
