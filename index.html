@@ -662,6 +662,10 @@ img,svg{-webkit-user-drag:none}
     font-size:12.5px;letter-spacing:.2em}
   #c02 .cont,#c03 .cont{background:#f3f0e9;border-top:1px solid rgba(27,25,23,.18);color:#1b1917}
   #c02 .cont:hover,#c03 .cont:hover{border-color:#2f7fbf;color:#2f7fbf}
+  /* c01 的按钮在桌面是浮在浅色天空上的深色小字；手机端 .cont 变成深色通栏，
+     深字压深底完全看不见——保留通栏，把字改回浅色 */
+  #c01 .cont{color:var(--ink)}
+  #c01 .cont:hover{border-color:var(--mark);color:var(--mark)}
 
   /* ── 章头 / 文字块 ── */
   .chap{left:var(--padX,16px);top:calc(var(--topH) + 10px)}
